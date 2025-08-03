@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sysaudrec"
+version = "0.1.2"
+description = "Tkinter GUI to record system audio (WASAPI loopback) to WAV."
+authors = [{ name = "Your Name" }]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+  "soundcard>=0.4.4",
+  "numpy>=1.24,<2.0"
+]
+
+[project.scripts]
+sysaudrec = "sysaudrec.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+sysaudrec = ["resources/*"]

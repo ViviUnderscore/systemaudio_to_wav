@@ -1,0 +1,47 @@
+# --- Python bytecode / caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Packaging / build artifacts ---
+build/
+dist/
+*.spec
+*.egg
+*.egg-info/
+src/**/.egg-info/
+.eggs/
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+.vs/
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs / runtime output ---
+logs/
+*.log
+
+# --- Project-specific ---
+recordings/
+launch.txt
+
+# --- Windows installers / binaries (keep builds out of git) ---
+*.exe
